@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Staff Application</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <h1>Staff Application</h1>
+</header>
+
+<form action="https://formspree.io/f/xgolevgd" method="POST"
+onsubmit="submitApp(event, 'Staff Application')">
+
+<label>Discord Username<input name="Discord Username" required></label>
+<label>PSN Username<input name="PSN"></label>
+<label>Age<input name="Age" required></label>
+<label>Timezone<input name="Timezone"></label>
+<label>Previous Staff Experience<textarea name="Staff Experience"></textarea></label>
+<label>Why do you want to be staff?<textarea name="Why Staff"></textarea></label>
+<label>What makes good staff?<textarea name="Good Staff"></textarea></label>
+<label>Availability per week<input name="Availability"></label>
+<label>Handling rule breakers<textarea name="Rule Breakers"></textarea></label>
+<label>Handling staff conflict<textarea name="Staff Conflict"></textarea></label>
+<label>Scenario: Player arguing<textarea name="Argument Scenario"></textarea></label>
+<label>Scenario: Power abuse<textarea name="Abuse Scenario"></textarea></label>
+<label>Strengths<textarea name="Strengths"></textarea></label>
+<label>Weaknesses<textarea name="Weaknesses"></textarea></label>
+<label>Can you stay professional?<textarea name="Professionalism"></textarea></label>
+<label>Mic quality<input name="Mic"></label>
+<label>Do you follow instructions well?<textarea name="Instructions"></textarea></label>
+<label>How long have you been in RP?<input name="RP Length"></label>
+<label>Are you active on Discord?<input name="Discord Activity"></label>
+<label>Do you agree to staff rules?<input name="Agreement" required></label>
+
+<button type="submit">Submit Application</button>
+</form>
+
+<script src="js/forms.js"></script>
+</body>
+</html>

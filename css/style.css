@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #0f1117;
+  color: #ffffff;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(135deg, #0a1a2f, #0f1117);
+}
+
+header h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+header p {
+  color: #b0b3c5;
+  font-size: 18px;
+}
+
+/* DISCORD BUTTON */
+.discord-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 28px;
+  background: #5865F2;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.discord-btn:hover {
+  background: #4752c4;
+}
+
+/* APPLICATION GRID */
+.app-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+  padding: 50px;
+}
+
+.app-card {
+  background: #1b1f2a;
+  padding: 30px;
+  text-align: center;
+  border-radius: 14px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: transform 0.2s, background 0.2s;
+}
+
+.app-card:hover {
+  background: #242a3a;
+  transform: translateY(-5px);
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 25px;
+  color: #9aa0b3;
+  font-size: 14px;
+}
